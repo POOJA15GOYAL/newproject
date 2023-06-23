@@ -36,3 +36,631 @@
     transform: rotate(360deg);
   }
 }
+.style {
+  font-size: 1.2rem;
+  direction: left;
+  color: black;
+}
+.style1 {
+  font-size: 1.2rem;
+  direction: right;
+  color: #CB0001;
+}
+.heading {
+  font-size: 1.8rem;
+}
+.content {
+  font-size: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+.visionHeading {
+  font-size: 1.8rem;
+}
+.visionContent {
+  font-size: 1.2rem;
+}
+.testimonialHeading {
+  font-size: 30px;
+  text-align: center;
+}
+.image {
+  max-width: 240px;
+}
+.wrapper {
+  margin: 100px;
+  width: 80%;
+}
+
+.image {
+  max-width: 320px;
+  float: right;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+.whole {
+  display: flex;
+
+  align-items: center;
+  min-height: 35vh;
+  background: #e8af2a;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.content {
+  color: white;
+  text-align: left;
+}
+.heading {
+  color: white;
+}
+.textbox {
+  padding: right;
+}
+.image {
+  padding: left;
+}
+.wrapper {
+  width: fit-content;
+}
+.highlights {
+  display: flex;
+  min-height: 35vh;
+}
+.higlightImage {
+  float: left;
+  flex-direction: column;
+  width: 70vw;
+}
+.highlightContent {
+  margin-left: 12px;
+  border: 2px solid rgb(54, 1, 54);
+  min-width: 50%;
+}
+.highlightBlocks {
+  margin-right: 12px;
+}
+.highlights {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 35px;
+}
+.Example {
+  padding-top: 0px;
+}
+.aboutusContent {
+  font-size: 1.2rem;
+}
+.aboutusHeading {
+  font-size: 1.8rem;
+}
+.fonts {
+  margin-top: 30px;
+  font-size: 1.8rem;
+}
+.highlightHeading {
+  text-align: center;
+  font-size: 1.8rem;
+  overflow-x: auto;
+}
+.fontshigh {
+  margin-top: 8px;
+  font-size: 2rem;
+}
+.block2 {
+  padding-right: 0px;
+  margin-right: 7px;
+}
+@media (min-width: 320px) and (max-width: 720px) {
+  #highlights {
+    display: block;
+    display: none;
+  }
+}
+.aboutus {
+  display: flex;
+  min-height: 35vh;
+}
+.aboutImage {
+  float: right;
+
+  width: 50%;
+}
+.aboutusContent {
+  margin-left: 12px;
+  width: 50%;
+}
+.aboutusHeading {
+  text-align: center;
+}
+.visionContent {
+  margin-left: 12px;
+}
+.visionHeading {
+  text-align: center;
+}
+.card {
+  width: 18rem;
+}
+.col {
+  padding-bottom: 25px;
+}
+
+.aboutImage {
+  display: flex;
+  width: 200px;
+  height: 200px;
+}
+.container {
+  display: flex;
+}
+
+.content {
+  flex: 1;
+  color: black;
+}
+/* about */
+.sidebar {
+  
+  float: left;
+  width: 30%; /* Adjust the width as per your needs */
+  margin-left: 3%;
+  margin-right: 1%;
+  width: 60vh; /* Adjust the width as per your needs */
+  height: 36vh;
+}
+.aboutHeading {
+  text-align: center;
+}
+
+.contentvision {
+  height: auto;
+  text-align: center;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-top: 2%;
+  flex: 1;
+  border: 2px black solid;
+  font-family: arial;
+}
+.container {
+  display: flex;
+}
+
+.imagevision {
+  padding-top: 2%;
+  width: 20%; /* Adjust the width as per your needs */
+  font-family: arial;
+  font-size: 1.2rem;
+  float: right;
+  margin-right: 7%;
+}
+
+/* aboutus */
+.p1 {
+  margin-top: 2%;
+  border: 2px black solid;
+  margin-left: 35%;
+  margin-right: 4%;
+  padding-left: 8%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 1.2rem;
+  font-family: arial;
+}
+.title {
+  margin-top: 2%;
+  text-align: center;
+  font-size: 1.8rem;
+}
+.para {
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: arial;
+}
+.imagemessages {
+  width: 100%;
+}
+.onclickmessages {
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+.messageimage {
+  width: 100%;
+}
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.pooja {
+  margin-top: 0%;
+}
+
+.dclass {
+  float: center;
+  font-size: 1.2rem;
+  padding: 4%;
+  cursor: pointer;
+  border: 2px solid goldenrod;
+  
+  margin-left: 10%;
+  color: #CB0001;
+  font-weight: bold;
+}
+.eclass {
+  float: center;
+  font-size: 1.2rem;
+  padding: 4%;
+  cursor: pointer;
+  border: 2px solid goldenrod;
+  margin-top: 5%;
+  
+  margin-left: 10%;
+  color: #CB0001;
+  font-weight: bold;
+}
+.dclass:hover {
+  transition: all 0.8s;
+  box-shadow: 0px 0px 0px 7px rgba(0, 0, 0, 0.212);
+}
+.eclass:hover {
+  transition: all 0.8s;
+  box-shadow: 0px 0px 0px 7px rgba(0, 0, 0, 0.212);
+}
+.sample {
+  width: 30%;
+  margin: 0%;
+  float: left;
+}
+.messgaesimage {
+  padding-top: 30px;
+  width: 80%;
+  height: 60ch;
+  padding-left: 300px;
+  padding-right: 25px;
+}
+.messagehead {
+  text-align: center;
+}
+.messagecontent {
+  text-align: center;
+  font-size: 1.2rem;
+}
+.apply-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #FDB533;
+  color:#CB0001;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding-top: 10px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.apply-button:hover {
+  background-color: #FDB533;
+}
+
+.apply-button:active {
+  background-color: #FDB533;
+}
+.buttoncontent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.axisoflearning {
+  background-color: #E6EFF0;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding: 5%;
+  border: 5px solid black;
+
+  padding-top: 1%;
+
+  height: 29ch;
+}
+
+.axisheading {
+  text-align: center;
+  padding-top: 2.5%;
+}
+.axisp {
+  text-align: center;
+}
+.contentvision {
+  margin-top: 2%;
+  border: 2px black solid;
+  margin-left: 35%;
+  margin-right: 4%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 1.2rem;
+  font-family: arial;
+}
+.vsidebar {
+  float: left;
+  width: 60vh; /* Adjust the width as per your needs */
+  height: 41vh;
+  margin-left: 3%;
+  margin-right: 1%;
+}
+.visionHeading {
+  padding-top: 10px;
+  text-align: center;
+}
+.App {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: linear-gradient(
+    90deg,
+    rgba(9, 9, 121, 1) 0%,
+    #ff6900 35%,
+    #3e8e41 100%,
+  
+);
+}
+.box div {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: transparent;
+  border: 6px solid rgba(255, 255, 255, 0.8);
+}
+.box div:nth-child(1) {
+  top: 12%;
+  left: 42%;
+  animation: animate 10s linear infinite;
+}
+.box div:nth-child(2) {
+  top: 70%;
+  left: 50%;
+  animation: animate 7s linear infinite;
+}
+.box div:nth-child(3) {
+  top: 17%;
+  left: 6%;
+  animation: animate 9s linear infinite;
+}
+.box div:nth-child(4) {
+  top: 20%;
+  left: 60%;
+  animation: animate 10s linear infinite;
+}
+.box div:nth-child(5) {
+  top: 67%;
+  left: 1%;
+  animation: animate 6s linear infinite;
+}
+.box div:nth-child(6) {
+  top: 80%;
+  left: 70%;
+  animation: animate 12s linear infinite;
+}
+.box div:nth-child(7) {
+  top: 60%;
+  left: 80%;
+  animation: animate 15s linear infinite;
+}
+.box div:nth-child(8) {
+  top: 32%;
+  left: 25%;
+  animation: animate 16s linear infinite;
+}
+.box div:nth-child(9) {
+  top: 90%;
+  left: 25%;
+  animation: animate 9s linear infinite;
+}
+.box div:nth-child(10) {
+  top: 20%;
+  left: 80%;
+  animation: animate 5s linear infinite;
+}
+@keyframes animate {
+  0% {
+    transform: scale(0) translateY(0) rotate(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.3) translateY(-90px) rotate(360deg);
+    opacity: 0;
+  }
+}
+.learninghead{
+  color:#000000
+}
+.learingcontent{
+  color:#000000;
+  font-size: 1.2rem;
+  font-family: Lora;
+}
+.axis{
+  background-image: url("");
+  padding-left: 2px;
+}
+.highlightHeading{
+  padding-top: 20px;
+  color:#CB0001
+}
+.text-center p-4{
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.formcontainer {
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+    margin: 0 auto;
+    padding: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
+  .formpara{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #ccc;
+  }
+
+
+
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input,
+textarea {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+.formmheading{
+  text-align: center;
+}
+.formcontainer {
+  /* Light gray background */
+}
+
+form {
+  background-color: #f5faff; /* Light blue background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding-left: 150px;
+  padding-right: 350px;
+
+}
+.formMainContent{
+  display:flex;
+}
+
+
+
+
+

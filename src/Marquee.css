@@ -1,0 +1,23 @@
+.marquee-container {
+    width: 300px;
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .marquee {
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+    animation-name: marquee;
+  }
+  
+  @keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+  
+  .marquee span {
+    display: inline-block;
+  }
+  
